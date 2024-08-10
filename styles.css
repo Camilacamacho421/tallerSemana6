@@ -19,6 +19,30 @@ body {
     box-shadow: 2px 3px #888888;
 }
 
+/* CAMBIO EN LA IMAGEN */
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Margen inferior entre los contenedores */
+}
+
+.imagen .item {
+    position: relative;
+    margin: 10px;
+    overflow: hidden; /* Ocultar el contenido que se desborde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s ease; /* Transición */
+    width: 500px; /* Ancho fijo */
+    height: auto; /* Ajustar la altura automáticamente */
+
+}
+
+.imagen .item:hover {
+    transform: scale(0.95);
+
+/* CAMBIO EN LA TIPOGRAFÍA Y CENTRADO */
 h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;

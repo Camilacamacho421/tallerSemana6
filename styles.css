@@ -1,6 +1,7 @@
 body {
     background-color: rgb(255, 255, 165);
-}
+    text-align: center;
+    }
 
 .image{
     border: 5px solid green;
@@ -19,7 +20,6 @@ body {
 }
 
 /* CAMBIO EN LA IMAGEN */
-
 .imagen {
     display: flex;
     justify-content: center;
@@ -41,4 +41,15 @@ body {
 
 .imagen .item:hover {
     transform: scale(0.95);
+
+/* CAMBIO EN LA TIPOGRAFÍA Y CENTRADO */
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
 }

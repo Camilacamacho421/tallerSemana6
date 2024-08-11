@@ -3,22 +3,7 @@ body {
     text-align: center;
     }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
-}
-
-.link-button {
-    text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
-}
-
+/* CAMBIO EN EL BOTON */
 
 .link-button {
     border: none; 
@@ -70,4 +55,5 @@ h1 {
 h2 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
+}
 }
